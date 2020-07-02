@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/pudim">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/buner" android:contentDescription="@string/banerbolo" />
+
+        <Button
+            android:id="@+id/voltarbolo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/voltardebolo"
+            android:onClick="chamaVoltar"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="51dp"
+            android:text="PUDIM DE CHOCOLATE - Aprenda a fazer esta deliciosa receita Quer aprender como fazer pudim de chocolate fácil? Então confira nossas dicas e descubra todos os segredos de uma boa receita de pudim de chocolate: Ingredientes Calda 1 xícara (chá) de açúcar Pudim 1 lata de leite MOÇA® 1 xícara (chá) de chocolate em pó DOIS FRADES® 2 vezes a mesma medida (lata) de leite 3 ovos. Modo de Preparo Calda Em uma panela, derreta o açúcar até ele ficar dourado. Junte meia xícara (chá) de água quente, mexa com uma colher e deixe ferver até os torrões de açúcar se dissolverem e a calda engrossar. Forre com essa calda uma forma com furo central (19 cm de diâmetro) e reserve. Pudim de chocolate A receita de pudim de chocolate começa assim: bata no liquidificador o Leite MOÇA, o leite, o chocolate e os ovos até que fique tudo homogêneo. Despeje na forma caramelada. Cubra a forma com papel-alumínio e asse em banho-maria em forno médio (180ºC) por cerca de 1 hora e 30 minutos. Espere esfriar e leve à geladeira para gelar por cerca de 6 horas. Desenforme e sirva a seguir. Pronto. Seu pudim de chocolate simples está pronto."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+</ScrollView>

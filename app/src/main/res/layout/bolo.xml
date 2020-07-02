@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/bolo">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:srcCompat="@mipmap/buner" android:contentDescription="@string/banerbolo" />
+
+     <Button
+         android:id="@+id/voltarbolo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/voltardebolo"
+         android:onClick="chamaVoltar"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="51dp"
+            android:text="@string/bolo_de_chocolate_fofinho_sabe_um_bolo_que_voc_adota_para_a_vida_toda_esse_o_bolo_de_chocolate_oficial_da_minha_casa_fa_o_at_de_olhos_fechados_e_pode_confiar_que_esse_d_certo_nem_precisa_de_batedeira_ou_liquidificador_r_pido_pr_tico_e_todo_mundo_adora_quer_coisa_melhor_ent_o_anotem_amados_ingredientes_da_massa_x_cara_usada_de_240ml_2_ovos_1_x_cara_ch_de_leite_1_x_cara_ch_de_leo_3_colheres_sopa_de_chocolate_em_p_1_e_x_cara_ch_de_farinha_de_trigo_1_2_x_cara_ch_de_amido_de_milho_maizena_1_e_x_cara_ch_de_a_car_1_colher_sopa_de_fermento_em_p_adicione_os_l_quidos_e_misture_e_reserve_em_outro_recipiente_junte_os_ingredientes_secos_menos_o_fermento_e_depois_acrescente_os_l_quidos_reservados_por_fim_acrescente_o_fermento_e_mexa_s_para_misturar_coloque_em_forma_untada_e_enfarinha_ou_polvilhada_com_chocolate_e_leve_ao_forno_que_j_estava_preaquecido_em_180_c_por_aproximadamente_45_min_deixe_amornar_e_desenforme_cobertura_1_2_lata_de_leite_condensado_120_ml_de_leite_2_colheres_sopa_de_chocolate_em_p_1_colher_sopa_de_manteiga_ou_margarina_leve_todos_os_ingredientes_ao_fogo_m_dio_baixo_quando_ferver_retire_despeje_sobre_o_bolo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+
+</ScrollView>

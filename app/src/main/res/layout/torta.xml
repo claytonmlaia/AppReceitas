@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/torta">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/buner" android:contentDescription="@string/banerbolo" />
+
+        <Button
+            android:id="@+id/voltarbolo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/voltardebolo"
+            android:onClick="chamaVoltar"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="51dp"
+            android:text="INGREDIENTES 200	g de manteiga em temperatura ambiente (1 xícara de chá) 1	xícara (chá) de açúcar mascavo (140 g) 3	ovos 1	pitada de canela em pó 100	g de farinha de trigo ( ¾ xícara de chá) 300	g de chocolate meio amargo picado e derretido (2 xícaras de chá) 400	g de banana prata madura amassada (1 ½ xícara de chá) 1⁄4	xícara (chá) de cacau em pó (25g) 1	colher (sopa) de fermento em pó CARAMELO DE BANANA 1⁄4	xícara (chá) de água (60 ml) 1	xícara (chá) de açúcar (200 g) 1⁄2	xícara (chá) de creme de leite de caixinha (120 g) 3	colheres (sopa) de manteiga (60 g) 150	g de banana picadinha (1 xícara de chá) MODO DE PREPARO Em uma batedeira coloque 200 g de manteiga em temperatura ambiente, 1 xícara (chá) de açúcar mascavo e bata bem. Adicione 3 ovos, 1 pitada de canela em pó e bata até formar uma mistura com aparência de talhada. Diminua a velocidade da batedeira, acrescente aos poucos 100 g de farinha de trigo, 300 g de chocolate meio amargo picado e derretido, 400 g de banana prata madura amassada, ¼ xícara (chá) de cacau em pó, 1 colher (sopa) de fermento em pó e bata até obter uma mistura homogênea. Transfira a massa para uma assadeira redonda de fundo falso (27 cm de diâmetro) untada e leve para assar em forno médio preaquecido a 180°C por +/- 45 minutos. Retire do forno e deixe esfriar. Desenforme e sirva em seguida com geleia de banana. CARAMELO DE BANANA Em uma panela coloque ¼ xícara (chá) de água, 1 xícara (chá) de açúcar e leve ao fogo baixo até formar uma calda com cor de caramelo. Adicione ½ xícara (chá) de creme de leite de caixinha, 3 colheres (sopa) de manteiga, misture. Apague o fogo, acrescente 150 g de banana picadinha, misture novamente, deixe esfriar e sirva em seguida."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+</ScrollView>

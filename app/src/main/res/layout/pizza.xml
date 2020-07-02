@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/pizza">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/buner" android:contentDescription="@string/banerbolo" />
+
+        <Button
+            android:id="@+id/voltarbolo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/voltardebolo"
+            android:onClick="chamaVoltar"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="51dp"
+            android:text="PIZZA DE CHOCOLATE - NGREDIENTES - MASSA: 1/2 kg de farinha 4 colheres de sopa de açúcar 1 colher de sobremesa de sal 2 ovos 1/2 pacotinho de fermento para pães 1 xícara de leite 1 xícara de óleo COBERTURA DA PIZZA: 250 g de chocolate ao leite 1 pacotinho de castanhas torradas e moídas. MODO DE PREPARO - MASSA: Misture os ingredientes secos em um recipiente Coloque então o leite morno e o óleo e misture a massa até ficar homogênea e não grudar nos dedos Amasse até dar liga Abra e corte em forma de circulo Unte uma assadeira e asse a massa, tire do forno antes que ela doure, pois tem que ficar assada mas branquinha COBERTURA DA PIZZA: Derreta o chocolate em banho-maria (não pode cair nenhuma gota de água no chocolate) Depois que o chocolate derreter coloque na massa ainda quente Salpique a castanha moída por cima e coloque para assar por 2 minutos para que o chocolate borbulhe."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+</ScrollView>
